@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+				background: hsl(0, 0%, 95%);
+				margin: 0px;
+				padding: 0px;
+				width: 100%;
+				height: 100vh;
+				font-size: 15px;
+				font-family: 'Lexend Deca', sans-serif;
+				place-content: center;
+							
+}
+
+html{
+				width:100% ;
+				height: 100%;
+}
+
+.header{
+					width: 80%;		
+					overflow: hidden;
+					margin: auto;		
+									
+}
+
+.thelinks{
+				margin:0px ;
+				padding: 0px;
+				text-align:right;
+}
+				
+.container{
+				width:100% ;
+				background: hsl(0, 0%, 95%);
+				color:hsla(0, 0%, 100%, 0.75) ;
+				box-sizing: border-box;
+				display: flex; 
+				flex-flow: row nowrap; 
+				justify-content: center; 
+				align-items: center; 
+				padding: 5rem;		
+				margin: 20px;									
+								
+}
+
+.flexbox{
+			text-decoration:none;
+			color: black;
+			display:inline;	
+			padding:3px;
+			margin-top: auto;			
+			font-weight: bold;
+			margin-right: 10px;}
+
+h2, .car-name{
+				font-family: 'Big Shoulders Display', cursive; 
+				font-weight: 700px; 
+				text-transform: uppercase; 
+				color: hsl(0, 0%, 95%);
+}
+
+.firstcard{
+				background: hsl(31, 77%, 52%);
+				border-radius: 8px 0 0 8px;
+				display: flex; 
+				flex-direction: column; 
+				padding: 45px 32px; 
+				align-items: flex-start;
+}
+
+.secondcard{
+				background: hsl(184, 100%, 22%);
+				display: flex; 
+				flex-direction: column;
+			 padding: 45px 32px; 
+			 align-items: flex-start;
+}
+
+.thirdcard{
+				background:hsl(179, 100%, 13%) ;
+				border-radius: 0 8px 8px 0;
+				display: flex; 
+				flex-direction: column; 
+				padding: 45px 32px; 
+				align-items: flex-start;
+}
+
+p{
+				font-size: 15px; 
+				margin: 25px 0 60px 0; 
+				color:hsla(0, 0%, 100%, 0.75) ; 				font-weight: 400; 
+				line-height: 1.8;
+}
+
+button{
+				padding: 12px 30px; 
+				border-radius: 50px; 
+				font-family: inherit; 
+				font-size: 17px; 
+				border: solid 3px hsl(0, 0%, 95%); 
+				transition: 0.3s;
+				cursor:pointer;
+				background: hsl(0, 0%, 95%);			
+}
+
+#button1 { color:hsl(31, 77%, 52%);}
+
+#button2 { color:hsl(184, 100%, 22%);}
+ 
+#button3 { color:hsl(179, 100%, 13%);}
+
+#button1:hover, #button2:hover, #button3:hover{ 
+				background: transparent;
+			 color: hsl(0, 0%, 95%);
+			 
+}; 
+}
+
+.thelogo{
+				margin-bottom: 35px;
+				width: 3.5rem;			
+}
+
+	
+
