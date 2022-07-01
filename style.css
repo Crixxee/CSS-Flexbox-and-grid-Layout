@@ -21,21 +21,14 @@ html{
 				height: 100%;
 }
 
-.header{
-					width: 80%;		
-					overflow: hidden;
-					margin: auto;		
-									
-}
-
 .thelinks{
-				margin:0px ;
-				padding: 0px;
-				text-align:right;
+				margin:10px ;
+				padding: 10px;
+				
 }
 				
 .container{
-				width:100% ;
+				width:960px;
 				background: hsl(0, 0%, 95%);
 				color:hsla(0, 0%, 100%, 0.75) ;
 				box-sizing: border-box;
@@ -44,7 +37,8 @@ html{
 				justify-content: center; 
 				align-items: center; 
 				padding: 5rem;		
-				margin: 20px;									
+				margin: 20px;	
+											
 								
 }
 
@@ -52,10 +46,12 @@ html{
 			text-decoration:none;
 			color: black;
 			display:inline;	
-			padding:3px;
+			padding:10px;
 			margin-top: auto;			
 			font-weight: bold;
-			margin-right: 10px;}
+			margin: 10px;
+			text-align:center;
+			}
 
 h2, .car-name{
 				font-family: 'Big Shoulders Display', cursive; 
